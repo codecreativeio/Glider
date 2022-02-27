@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0505_cc_glider.where</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>An alias for the "and" function for more readable query expressions</description>
+        <name>where</name>
+        <script><![CDATA[var where = function() {
+	return and(arguments);
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-26 23:24:52</sys_created_on>
+        <sys_id>894e11ab87b50d107b05da873cbb3568</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>where</sys_name>
+        <sys_package display_value="CodeCreative Glider" source="x_0505_cc_glider">167951e387b50d107b05da873cbb352a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Glider">167951e387b50d107b05da873cbb352a</sys_scope>
+        <sys_update_name>sys_script_include_894e11ab87b50d107b05da873cbb3568</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-26 23:24:52</sys_updated_on>
+    </sys_script_include>
+</record_update>
