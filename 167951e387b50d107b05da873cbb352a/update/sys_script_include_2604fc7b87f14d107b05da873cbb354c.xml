@@ -2,30 +2,29 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_0505_cc_glider.isDifferent</api_name>
+        <api_name>x_0505_cc_glider.trendOnOrAfter</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description>Returns a filter query expression when two fields are different</description>
-        <name>isDifferent</name>
-        <script><![CDATA[var isDifferent = function(field1, field2, datepart) {
-	if (datepart) {
-		return field1 + 'NSAMEAS' + field2 + '@' + datepart;
-	}
-	else {
-		return field1 + 'NSAMEAS' + field2;
-	}
+        <description>Returns a filter query expression when a field's date part (Day, Week, Day of Week, etc) should be on or after a value</description>
+        <name>trendOnOrAfter</name>
+        <script><![CDATA[var trendOnOrAfter = function(field, datepart, value, label) {
+	return trend(field, value, {
+		'label': label,
+		'comparison': 'GE',
+		'datepart': datepart
+	});
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-27 00:58:11</sys_created_on>
-        <sys_id>1cc3f9af87f50d107b05da873cbb356c</sys_id>
+        <sys_created_on>2022-02-27 15:02:21</sys_created_on>
+        <sys_id>2604fc7b87f14d107b05da873cbb354c</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>isDifferent</sys_name>
+        <sys_name>trendOnOrAfter</sys_name>
         <sys_package display_value="CodeCreative Glider" source="x_0505_cc_glider">167951e387b50d107b05da873cbb352a</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="CodeCreative Glider">167951e387b50d107b05da873cbb352a</sys_scope>
-        <sys_update_name>sys_script_include_1cc3f9af87f50d107b05da873cbb356c</sys_update_name>
+        <sys_update_name>sys_script_include_2604fc7b87f14d107b05da873cbb354c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-27 15:26:02</sys_updated_on>
+        <sys_updated_on>2022-02-27 15:07:40</sys_updated_on>
     </sys_script_include>
 </record_update>

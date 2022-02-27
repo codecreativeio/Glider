@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0505_cc_glider.Dates</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Constants that represent encoded query expressions for common date filters</description>
+        <name>Dates</name>
+        <script><![CDATA[var Dates = {
+	'Today': 'Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()',
+	'Yesterday': 'Yesterday@javascript:gs.beginningOfYesterday()@javascript:gs.endOfYesterday()',
+	'Tomorrow': 'Tomorrow@javascript:gs.beginningOfTomorrow()@javascript:gs.endOfTomorrow()',
+	'ThisWeek': 'This week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()',
+	'LastWeek': 'Last week@javascript:gs.beginningOfLastWeek()@javascript:gs.endOfLastWeek()',
+	'NextWeek': 'Next week@javascript:gs.beginningOfNextWeek()@javascript:gs.endOfNextWeek()',
+	'ThisMonth': 'This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()',
+	'LastMonth': 'Last month@javascript:gs.beginningOfLastMonth()@javascript:gs.endOfLastMonth()',
+	'NextMonth': 'Next month@javascript:gs.beginningOfNextMonth()@javascript:gs.endOfNextMonth()',
+	'Last3Months': 'Last 3 months@javascript:gs.beginningOfLast3Months()@javascript:gs.endOfLast3Months()',
+	'Last6Months': 'Last 6 months@javascript:gs.beginningOfLast6Months()@javascript:gs.endOfLast6Months()',
+	'Last9Months': 'Last 9 months@javascript:gs.beginningOfLast9Months()@javascript:gs.endOfLast9Months()',
+	'Last12Months': 'Last 12 months@javascript:gs.beginningOfLast12Months()@javascript:gs.endOfLast12Months()',
+	'ThisQuarter': 'This quarter@javascript:gs.beginningOfThisQuarter()@javascript:gs.endOfThisQuarter()',
+	'LastQuarter': 'Last quarter@javascript:gs.beginningOfLastQuarter()@javascript:gs.endOfLastQuarter()',
+	'Last2Quarters': 'Last 2 quarters@javascript:gs.beginningOfLast2Quarters()@javascript:gs.endOfLast2Quarters()',
+	'NextQuarter': 'Next quarter@javascript:gs.beginningOfNextQuarter()@javascript:gs.endOfNextQuarter()',
+	'Next2Quarters': 'Next 2 quarters@javascript:gs.beginningOfNext2Quarters()@javascript:gs.endOfNext2Quarters()',
+	'ThisYear': 'This year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()',
+	'NextYear': 'Next year@javascript:gs.beginningOfNextYear()@javascript:gs.endOfNextYear()',
+	'LastYear': 'Last year@javascript:gs.beginningOfLastYear()@javascript:gs.endOfLastYear()',
+	'Last2Years': 'Last 2 years@javascript:gs.beginningOfLast2Years()@javascript:gs.endOfLast2Years()',
+	'Last7Days': 'Last 7 days@javascript:gs.beginningOfLast7Days()@javascript:gs.endOfLast7Days()',
+	'Last30Days': 'Last 30 days@javascript:gs.beginningOfLast30Days()@javascript:gs.endOfLast30Days()',
+	'Last60Days': 'Last 60 days@javascript:gs.beginningOfLast60Days()@javascript:gs.endOfLast60Days()',
+	'Last90Days': 'Last 90 days@javascript:gs.beginningOfLast90Days()@javascript:gs.endOfLast90Days()',
+	'Last120Days': 'Last 120 days@javascript:gs.beginningOfLast120Days()@javascript:gs.endOfLast120Days()',
+	'CurrentHour': 'Current hour@javascript:gs.beginningOfCurrentHour()@javascript:gs.endOfCurrentHour()',
+	'LastHour': 'Last hour@javascript:gs.beginningOfLastHour()@javascript:gs.endOfLastHour()',
+	'Last2Hours': 'Last 2 hours@javascript:gs.beginningOfLast2Hours()@javascript:gs.endOfLast2Hours()',
+	'CurrentMinute': 'Current minute@javascript:gs.beginningOfCurrentMinute()@javascript:gs.endOfCurrentMinute()',
+	'LastMinute': 'Last minute@javascript:gs.beginningOfLastMinute()@javascript:gs.endOfLastMinute()',
+	'Last15Minutes': 'Last 15 minutes@javascript:gs.beginningOfLast15Minutes()@javascript:gs.endOfLast15Minutes()',
+	'Last30Minutes': 'Last 30 minutes@javascript:gs.beginningOfLast30Minutes()@javascript:gs.endOfLast30Minutes()',
+	'Last45Minutes': 'Last 45 minutes@javascript:gs.beginningOfLast45Minutes()@javascript:gs.endOfLast45Minutes()',
+	'OneYearAgo': 'One year ago@javascript:gs.beginningOfOneYearAgo()@javascript:gs.endOfOneYearAgo()'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-27 16:01:48</sys_created_on>
+        <sys_id>4f9eb07787354d107b05da873cbb3544</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dates</sys_name>
+        <sys_package display_value="CodeCreative Glider" source="x_0505_cc_glider">167951e387b50d107b05da873cbb352a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Glider">167951e387b50d107b05da873cbb352a</sys_scope>
+        <sys_update_name>sys_script_include_4f9eb07787354d107b05da873cbb3544</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-27 16:01:48</sys_updated_on>
+    </sys_script_include>
+</record_update>
