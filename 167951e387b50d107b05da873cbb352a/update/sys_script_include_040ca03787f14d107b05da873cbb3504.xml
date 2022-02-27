@@ -2,30 +2,25 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_0505_cc_glider.isSame</api_name>
+        <api_name>x_0505_cc_glider.isOn</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description>Returns a filter query expression when two fields are the same</description>
-        <name>isSame</name>
-        <script><![CDATA[var isSame = function(field1, field2, datepart) {
-	if (datepart) {
-		return field1 + 'SAMEAS' + field2 + '@' + datepart;
-	}
-	else {
-		return field1 + 'SAMEAS' + field2;
-	}
+        <description>Alias for occurredOn</description>
+        <name>isOn</name>
+        <script><![CDATA[var isOn = function(field, value) {
+	return occurredOn(field, value);
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-02-27 00:56:44</sys_created_on>
-        <sys_id>6563756387f50d107b05da873cbb3560</sys_id>
+        <sys_created_on>2022-02-27 14:23:00</sys_created_on>
+        <sys_id>040ca03787f14d107b05da873cbb3504</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>isSame</sys_name>
+        <sys_name>isOn</sys_name>
         <sys_package display_value="CodeCreative Glider" source="x_0505_cc_glider">167951e387b50d107b05da873cbb352a</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="CodeCreative Glider">167951e387b50d107b05da873cbb352a</sys_scope>
-        <sys_update_name>sys_script_include_6563756387f50d107b05da873cbb3560</sys_update_name>
+        <sys_update_name>sys_script_include_040ca03787f14d107b05da873cbb3504</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-02-27 15:25:11</sys_updated_on>
+        <sys_updated_on>2022-02-27 14:25:27</sys_updated_on>
     </sys_script_include>
 </record_update>
