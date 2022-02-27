@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0505_cc_glider.changesTo</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Returns a filter expression that indicates if a field has changes to a specific value from a different value</description>
+        <name>changesTo</name>
+        <script><![CDATA[var changesTo = function(field, value) {
+	return field + 'CHANGESTO' + value;
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-27 17:19:53</sys_created_on>
+        <sys_id>b3941d7387754d107b05da873cbb35fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>changesTo</sys_name>
+        <sys_package display_value="CodeCreative Glider" source="x_0505_cc_glider">167951e387b50d107b05da873cbb352a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Glider">167951e387b50d107b05da873cbb352a</sys_scope>
+        <sys_update_name>sys_script_include_b3941d7387754d107b05da873cbb35fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-27 17:19:53</sys_updated_on>
+    </sys_script_include>
+</record_update>
