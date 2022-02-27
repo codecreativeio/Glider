@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_0505_cc_glider.isGreaterThanField</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Returns a filter query expression when a field is greater than another field</description>
+        <name>isGreaterThanField</name>
+        <script><![CDATA[var isGreaterThanField = function(field1, field2) {
+	return field1 + 'GT_FIELD' + field2;
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-27 16:27:08</sys_created_on>
+        <sys_id>27d7c5bf87354d107b05da873cbb3531</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>isGreaterThanField</sys_name>
+        <sys_package display_value="CodeCreative Glider" source="x_0505_cc_glider">167951e387b50d107b05da873cbb352a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CodeCreative Glider">167951e387b50d107b05da873cbb352a</sys_scope>
+        <sys_update_name>sys_script_include_27d7c5bf87354d107b05da873cbb3531</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-27 16:27:37</sys_updated_on>
+    </sys_script_include>
+</record_update>
